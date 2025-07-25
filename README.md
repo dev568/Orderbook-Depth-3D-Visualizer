@@ -22,6 +22,10 @@ A real-time, 3D interactive order book visualizer for cryptocurrency trading pai
 - **Styling:** Tailwind CSS
 
 ---
+## 🌐 Live Demo
+
+Check the live deployed version here:  
+👉 https://orderbook-depth-3-d-visualizer-khaki.vercel.app/
 ---
 
 ## ⚙️ Setup Instructions

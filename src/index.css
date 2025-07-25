@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Financial Trading App Design System - Dark Theme for Professional Trading */
+
+@layer base {
+  :root {
+    /* Financial Dark Theme - Professional Trading Interface */
+    --background: 220 13% 8%;
+    --foreground: 220 9% 88%;
+
+    --card: 220 13% 10%;
+    --card-foreground: 220 9% 88%;
+
+    --popover: 220 13% 10%;
+    --popover-foreground: 220 9% 88%;
+
+    --primary: 142 76% 36%;
+    --primary-foreground: 220 13% 8%;
+
+    --secondary: 220 13% 15%;
+    --secondary-foreground: 220 9% 88%;
+
+    --muted: 220 13% 13%;
+    --muted-foreground: 220 9% 65%;
+
+    --accent: 217 91% 60%;
+    --accent-foreground: 220 13% 8%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 220 13% 8%;
+
+    --border: 220 13% 18%;
+    --input: 220 13% 15%;
+    --ring: 142 76% 36%;
+
+    /* Financial Trading Colors */
+    --bid-color: 142 76% 36%;        /* Green for buy orders */
+    --ask-color: 0 72% 51%;          /* Red for sell orders */
+    --bid-light: 142 51% 45%;        /* Lighter green */
+    --ask-light: 0 65% 60%;          /* Lighter red */
+    
+    /* Venue Colors for Multi-Exchange */
+    --binance: 45 100% 51%;          /* Binance yellow */
+    --okx: 214 100% 59%;             /* OKX blue */
+    --bybit: 280 100% 70%;           /* Bybit purple */
+    --deribit: 25 100% 55%;          /* Deribit orange */
+    
+    /* Pressure Zone Analysis Colors */
+    --pressure-high: 0 100% 67%;     /* High pressure zones */
+    --pressure-medium: 39 100% 57%;  /* Medium pressure zones */
+    --pressure-low: 142 69% 58%;     /* Low pressure zones */
+    
+    /* Grid and Chart Colors */
+    --grid-color: 220 13% 20%;       /* Chart grid lines */
+    --axis-color: 220 9% 70%;        /* Chart axes */
+    --price-line: 45 100% 51%;       /* Current price line */
+    
+    /* UI Enhancement Gradients */
+    --gradient-panel: linear-gradient(135deg, hsl(220 13% 12%) 0%, hsl(220 13% 8%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(220 13% 15%) 0%, hsl(220 13% 10%) 100%);
+    --gradient-trading: linear-gradient(45deg, hsl(142 76% 36% / 0.1) 0%, hsl(0 72% 51% / 0.1) 100%);
+    
+    /* Shadows for Depth */
+    --shadow-trading: 0 8px 32px 0 hsl(220 13% 4% / 0.5);
+    --shadow-panel: 0 4px 16px 0 hsl(220 13% 4% / 0.3);
+    --shadow-glow-bid: 0 0 20px hsl(142 76% 36% / 0.3);
+    --shadow-glow-ask: 0 0 20px hsl(0 72% 51% / 0.3);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Keep the same dark theme as default since this is a trading app */
+    --background: 220 13% 8%;
+    --foreground: 220 9% 88%;
+
+    --card: 220 13% 10%;
+    --card-foreground: 220 9% 88%;
+
+    --popover: 220 13% 10%;
+    --popover-foreground: 220 9% 88%;
+
+    --primary: 142 76% 36%;
+    --primary-foreground: 220 13% 8%;
+
+    --secondary: 220 13% 15%;
+    --secondary-foreground: 220 9% 88%;
+
+    --muted: 220 13% 13%;
+    --muted-foreground: 220 9% 65%;
+
+    --accent: 217 91% 60%;
+    --accent-foreground: 220 13% 8%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 220 13% 8%;
+
+    --border: 220 13% 18%;
+    --input: 220 13% 15%;
+    --ring: 142 76% 36%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

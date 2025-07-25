@@ -11,7 +11,6 @@ A real-time, 3D interactive order book visualizer for cryptocurrency trading pai
 - 📡 Real-time data from Binance WebSocket API
 - ⚙️ Configurable trading pairs and precision
 - 💡 Optimized rendering with performant React + WebGL
-- 🌐 Live hosted version (see below)
 
 ---
 
@@ -21,7 +20,6 @@ A real-time, 3D interactive order book visualizer for cryptocurrency trading pai
 - **3D Rendering:** React Three Fiber (Three.js bindings)
 - **Real-Time Data:** Binance WebSocket API
 - **Styling:** Tailwind CSS
-- **Hosting:** Vercel (live demo)
 
 ---
 ---
